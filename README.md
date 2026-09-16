@@ -1,140 +1,123 @@
-# 📊 Sales Analysis Report — Power BI
+# 📊 Sales Analysis Dashboard | Power BI
 
-## 📌 Project Overview
+An interactive Power BI dashboard for exploring sales, profit, customers, products, regions, and time-based business performance.
 
-Sales Analysis Report is an interactive Business Intelligence dashboard developed using Microsoft Power BI.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-117865)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-0078D4)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
-The project analyzes sales, profit, quantity, customers, products, categories, regions, and time-based performance. Interactive dashboards and filters are used to transform sales data into meaningful business insights.
+## 🚀 Project Overview
 
-## 🎯 Objectives
+This project demonstrates a complete business intelligence workflow in Microsoft Power BI: data preparation, transformation, modeling, KPI development, interactive visualization, and business-focused analysis.
 
-- Analyze overall sales and profit performance
-- Track sales trends over time
-- Analyze sales across different regions
-- Understand customer performance
-- Compare product and category performance
-- Analyze sales by segment
-- Create an interactive business intelligence dashboard
+The dashboard is designed to help users quickly understand **sales performance, profitability, customer behavior, product performance, regional trends, and changes over time**.
 
-## 🛠️ Tools Used
+## 🎯 Business Objectives
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Cleaning
-- Data Modeling
-- Data Visualization
+- Monitor overall sales, profit, orders, and quantity
+- Identify sales and profit trends over time
+- Compare performance across regions, states, cities, and countries
+- Analyze category, sub-category, and product performance
+- Understand customer and segment-level performance
+- Build an interactive dashboard for business decision support
 
-## 📊 Dashboard Pages
+## 🛠️ Tech Stack
 
-### 1. Welcome
+| Area | Tools / Techniques |
+|---|---|
+| BI Platform | Microsoft Power BI |
+| Data Preparation | Power Query |
+| Data Modeling | Relationships, dimensional analysis |
+| Calculations | DAX |
+| Visualization | KPI Cards, Charts, Tables, Maps |
+| Analysis | Time, Geography, Products, Customers, Segments |
 
-The welcome page provides navigation to the different analysis sections of the report.
+## 📊 Dashboard Preview
+
+### Welcome
+
+Navigation page for accessing the different dashboard sections.
 
 ![Welcome](Screenshots/Welcome.png)
 
-### 2. Sales Overview
+### Sales Overview
 
-Provides an overview of sales performance across regions and categories.
+High-level view of sales performance across the business.
 
-![Sales Overview](Screenshots/Sales_Overview.png)
+![Sales Overview](Screenshots/Sales%20Over%20VIew.png)
 
-### 3. Profit Analysis
+### Profit Analysis
 
-Analyzes profit performance by product, sub-category, category, and date.
+Explores profitability across products, categories, sub-categories, and time.
 
-![Profit Analysis](Screenshots/Profit_Analysis.png)
+![Profit Analysis](Screenshots/Profit.png)
 
-### 4. Time Series Analysis
+### Time Series Analysis
 
-Analyzes sales performance over time using date-based visualizations.
+Tracks sales performance across the available time period, from **2014 to 2017**.
 
-The analysis covers the period from **2014 to 2017**.
+![Time Series](Screenshots/Time%20Series.png)
 
-![Time Series](Screenshots/Time_Series.png)
+### Regional Analysis
 
-### 5. Region Wise Analysis
+Examines sales performance across regions and geographic dimensions.
 
-Provides geographical analysis of sales across regions, states, and countries.
+![Regional Analysis](Screenshots/Region%20Wise.png)
 
-![Region Wise Analysis](Screenshots/Region_Wise_Analysis.png)
+### Customer Analysis
 
-### 6. Customer Analysis
+Provides customer-level analysis of sales, profit, quantity, and order activity.
 
-Provides customer-level analysis including sales, profit, quantity, and order details.
-
-![Customer Analysis](Screenshots/Customer_Analysis.png)
+![Customer Analysis](Screenshots/Customer%20Analysis.png)
 
 ## 📈 Key KPIs
 
-The dashboard tracks important business metrics such as:
+The dashboard includes metrics such as:
 
-- Total Orders
-- Total Customers
-- Total Cities
-- Total Quantity
-- Total Profit
-- Total Sales
+- **Total Sales:** ₹2.30M approximately
+- **Total Profit:** ₹286.40K approximately
+- **Total Quantity:** 38K approximately
+- **Total Orders:** 5.009K approximately
+- **Total Customers**
+- **Total Cities**
 
-The dashboard displays approximately:
+> KPI values above reflect the figures documented in the dashboard README and may vary with filters or report interactions.
 
-- **5.009K Orders**
-- **38K Quantity**
-- **₹286.40K Profit**
-- **₹2.30M Sales**
-
-## 🔄 Data Analysis
-
-The report provides analysis across:
+## 🔍 Analysis Areas
 
 ### Time
-- Year
-- Quarter
-- Month
-- Date
+Year, quarter, month, and date-level analysis.
 
 ### Geography
-- Region
-- State
-- City
-- Country
+Region, state, city, and country analysis.
 
 ### Products
-- Category
-- Sub-Category
-- Product
+Category, sub-category, and product-level analysis.
 
 ### Customers
-- Customer ID
-- Customer Name
-- Segment
+Customer ID, customer name, and segment analysis.
 
 ## 🎛️ Interactive Features
 
-The dashboard includes:
-
-- Interactive slicers
-- Date filters
-- Category filters
-- Region filters
-- Segment filters
-- Drill-down functionality
+- Slicers and filters
 - KPI cards
-- Charts
-- Tables
+- Drill-down analysis
+- Interactive charts
+- Tables and detailed views
 - Geographic visualizations
+- Time-based filtering
+- Category, region, and segment filtering
 
-## 💡 Business Questions
+## 💡 Business Questions Answered
 
-This dashboard helps answer questions such as:
-
-- What are the overall sales and profit levels?
-- How do sales change over time?
-- Which regions generate higher sales?
-- How does each category perform?
-- Which products contribute to profit?
-- How do different customer segments perform?
-- Which customers and orders contribute to sales?
+- How are sales and profit performing overall?
+- How does sales performance change over time?
+- Which regions contribute most to sales?
+- Which categories and products perform strongly?
+- How does profitability vary across products and categories?
+- How do customer segments compare?
+- Which customers and orders contribute to business performance?
 
 ## 📁 Repository Structure
 
@@ -142,14 +125,34 @@ This dashboard helps answer questions such as:
 Sales-Analysis-PowerBI/
 │
 ├── README.md
-│
-├── PowerBI/
-│   └── Sales_Analysis_Report.pbix
+├── Sales_Analysis_Report.pbix
 │
 └── Screenshots/
     ├── Welcome.png
-    ├── Sales_Overview.png
-    ├── Profit_Analysis.png
-    ├── Time_Series.png
-    ├── Region_Wise_Analysis.png
-    └── Customer_Analysis.png
+    ├── Sales Over VIew.png
+    ├── Profit.png
+    ├── Region Wise.png
+    ├── Time Series.png
+    └── Customer Analysis.png
+```
+
+## ▶️ How to Use
+
+1. Download `Sales_Analysis_Report.pbix` from this repository.
+2. Open the file with **Microsoft Power BI Desktop**.
+3. Interact with the slicers, filters, and visuals to explore the analysis.
+
+## 📌 Project Highlights
+
+- Built an interactive multi-page Power BI dashboard
+- Used Power Query for data preparation and transformation
+- Applied DAX for analytical calculations
+- Created business-focused KPI and visualization views
+- Organized analysis across time, geography, products, and customers
+
+## 👤 Author
+
+**Sachin**  
+Data Analytics | Power BI | SQL | Python
+
+📌 GitHub: [@Sachijhon](https://github.com/Sachijhon)

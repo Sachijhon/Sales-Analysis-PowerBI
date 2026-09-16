@@ -1,113 +1,142 @@
-[README.md](https://github.com/user-attachments/files/32277445/README.md)
-# 📊 Sales Analysis Dashboard – Power BI
+# 📊 Sales Analysis Report — Power BI
 
 ## 📌 Project Overview
 
-This project is an interactive **Sales Analysis Dashboard** developed using Microsoft Power BI. The dashboard helps analyze sales performance, revenue, profit, products, customers, and regional performance.
+Sales Analysis Report is an interactive Business Intelligence dashboard developed using Microsoft Power BI.
 
-The goal of this project is to transform raw business data into meaningful visual insights that can support data-driven decision-making.
+The project analyzes sales, profit, quantity, customers, products, categories, regions, and time-based performance. Interactive dashboards and filters are used to transform sales data into meaningful business insights.
 
 ## 🎯 Objectives
 
 - Analyze overall sales and profit performance
-- Identify top-performing products and categories
-- Analyze sales by region and time period
-- Understand customer purchasing patterns
-- Track important business KPIs
-- Create an interactive dashboard for business analysis
+- Track sales trends over time
+- Analyze sales across different regions
+- Understand customer performance
+- Compare product and category performance
+- Analyze sales by segment
+- Create an interactive business intelligence dashboard
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools Used
 
-- **Power BI**
-- **Power Query**
-- **DAX**
-- **Microsoft Excel**
-- Data Cleaning & Transformation
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Cleaning
+- Data Modeling
 - Data Visualization
 
-## 🔄 Data Preparation
+## 📊 Dashboard Pages
 
-The dataset was cleaned and transformed using **Power Query**.
+### 1. Welcome
 
-Key transformations included:
+The welcome page provides navigation to the different analysis sections of the report.
 
-- Removing unnecessary columns
-- Handling missing values
-- Correcting data types
-- Renaming columns
-- Filtering unnecessary records
-- Creating required calculated fields
-- Preparing tables for data modeling
+![Welcome](Screenshots/Welcome.png)
 
-## 🧩 Data Modeling
+### 2. Sales Overview
 
-A structured data model was created in Power BI to establish relationships between the relevant tables.
+Provides an overview of sales performance across regions and categories.
 
-The model was designed to make filtering and analysis efficient across different dimensions such as:
+![Sales Overview](Screenshots/Sales_Overview.png)
 
-- Date
-- Product
-- Customer
-- Region
-- Sales
+### 3. Profit Analysis
 
-## 📐 DAX Measures
+Analyzes profit performance by product, sub-category, category, and date.
 
-The project uses DAX measures to calculate important business metrics such as:
+![Profit Analysis](Screenshots/Profit_Analysis.png)
 
-- Total Sales
-- Total Profit
+### 4. Time Series Analysis
+
+Analyzes sales performance over time using date-based visualizations.
+
+The analysis covers the period from **2014 to 2017**.
+
+![Time Series](Screenshots/Time_Series.png)
+
+### 5. Region Wise Analysis
+
+Provides geographical analysis of sales across regions, states, and countries.
+
+![Region Wise Analysis](Screenshots/Region_Wise_Analysis.png)
+
+### 6. Customer Analysis
+
+Provides customer-level analysis including sales, profit, quantity, and order details.
+
+![Customer Analysis](Screenshots/Customer_Analysis.png)
+
+## 📈 Key KPIs
+
+The dashboard tracks important business metrics such as:
+
 - Total Orders
-- Average Sales
-- Profit Margin
-- Year-over-Year Growth
+- Total Customers
+- Total Cities
+- Total Quantity
+- Total Profit
+- Total Sales
 
-## 📊 Dashboard Features
+The dashboard displays approximately:
+
+- **5.009K Orders**
+- **38K Quantity**
+- **₹286.40K Profit**
+- **₹2.30M Sales**
+
+## 🔄 Data Analysis
+
+The report provides analysis across:
+
+### Time
+- Year
+- Quarter
+- Month
+- Date
+
+### Geography
+- Region
+- State
+- City
+- Country
+
+### Products
+- Category
+- Sub-Category
+- Product
+
+### Customers
+- Customer ID
+- Customer Name
+- Segment
+
+## 🎛️ Interactive Features
 
 The dashboard includes:
 
-- KPI cards
-- Sales trend analysis
-- Product performance
-- Regional analysis
-- Category analysis
 - Interactive slicers
-- Charts and tables
-- Dynamic filtering
+- Date filters
+- Category filters
+- Region filters
+- Segment filters
+- Drill-down functionality
+- KPI cards
+- Charts
+- Tables
+- Geographic visualizations
 
-## 💡 Key Insights
+## 💡 Business Questions
 
-Some of the insights identified from the analysis include:
+This dashboard helps answer questions such as:
 
-- Identification of high-performing products
-- Comparison of sales across regions
-- Analysis of monthly/yearly sales trends
-- Identification of profitable and less-profitable categories
-- Comparison of sales and profit performance
+- What are the overall sales and profit levels?
+- How do sales change over time?
+- Which regions generate higher sales?
+- How does each category perform?
+- Which products contribute to profit?
+- How do different customer segments perform?
+- Which customers and orders contribute to sales?
 
-> Note: The specific findings above should be replaced with the actual insights from the completed dashboard.
-
-## 🖼️ Dashboard Preview
-
-### Main Dashboard
-
-](<Screenshot (204).png>)![
-
-### Sales Analysis
-
-](<Screenshot (210).png>) ![
-    
-](<Screenshot (209).png>) ![
-    
-](<Screenshot (208).png>) ![
-    
-](<Screenshot (207).png>) ![
-    
-](<Screenshot (206).png>) ![
-    
-](<Screenshot (205).png>) ![
-
-## 📁 Project Structure
+## 📁 Repository Structure
 
 ```text
 Sales-Analysis-PowerBI/
@@ -115,33 +144,12 @@ Sales-Analysis-PowerBI/
 ├── README.md
 │
 ├── PowerBI/
-│   └── Sales_Analysis.pbix
-│
-├── Dataset/
-│   └── sales_data.xlsx
+│   └── Sales_Analysis_Report.pbix
 │
 └── Screenshots/
-    ├── dashboard.png
-    └── sales_analysis.png
-```
-
-## 🚀 How to Use
-
-1. Download the `.pbix` Power BI file.
-2. Open it using Microsoft Power BI Desktop.
-3. If required, update the dataset/file path.
-4. Refresh the data.
-5. Interact with the dashboard using the available filters and slicers.
-
-## 📚 Skills Demonstrated
-
-This project demonstrates practical experience with:
-
-**Power BI | Power Query | DAX | Data Cleaning | Data Modeling | Data Visualization | Business Analysis**
-
-## 👨‍💻 Author
-
-**Sachin**
-
-Aspiring Data Analyst  
-Skills: Excel | SQL | Python | Power BI | Data Visualization
+    ├── Welcome.png
+    ├── Sales_Overview.png
+    ├── Profit_Analysis.png
+    ├── Time_Series.png
+    ├── Region_Wise_Analysis.png
+    └── Customer_Analysis.png

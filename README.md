@@ -1,5 +1,9 @@
 # 📊 Sales Analysis Dashboard | Power BI
 
+### Data Analytics • Power BI • DAX • Business Intelligence
+
+[![GitHub](https://img.shields.io/badge/GitHub-Sachijhon-181717?logo=github)](https://github.com/Sachijhon) [![Portfolio](https://img.shields.io/badge/Portfolio-Featured-0A66C2)](https://github.com/Sachijhon/Sales-Analysis-PowerBI)
+
 An interactive Power BI dashboard for exploring sales, profit, customers, products, regions, and time-based business performance.
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
@@ -152,7 +156,7 @@ Sales-Analysis-PowerBI/
 
 ## 👤 Author
 
-**Sachin**  
-Data Analytics | Power BI | SQL | Python
+**Sachin B A**  
+Aspiring Data Analyst | Excel | SQL | Power BI | Python
 
-📌 GitHub: [@Sachijhon](https://github.com/Sachijhon)
+🔗 [GitHub Profile](https://github.com/Sachijhon) · [LinkedIn](https://www.linkedin.com/in/sachin-b-a-/)
